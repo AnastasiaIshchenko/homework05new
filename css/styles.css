@@ -485,3 +485,28 @@ color: #404BBF;
 .icon-menu-team .icons-item-menu .social-media-link:focus {
 background-color: #404bbf;
 }
+
+
+/*======BACKDROP SECTION======*/
+.backdrop {
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+
+}
+
+
+/*======MODAL WINDOWS SECTION======*/
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 408px;
+    min-height: 584px;
+    background-color: #fcfcfc;
+    border-radius: 4px;
+}
