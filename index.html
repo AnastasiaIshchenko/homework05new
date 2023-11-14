@@ -369,18 +369,18 @@
             <div class="subscribe">
                 <p class="subscribe-para">Subscribe</p>
                 <form action="">
-                    <label for="">
-                        <input type="email" placeholder="E-mail">
+                    <label class="footer-form-field-label" for="user-email">
+                        <input type="email" class="footer-form-field-subscribe" name="user-email" id="user-email" placeholder="E-mail">
                     </label>
                     <button class="subscribe-button" type="submit">Subscribe</button>
-                    <svg class="send-icon" width="24" height="24">
-                        <use href="./images/icons.svg#icon-icon-send"></use>
-                    </svg>
+                        <svg class="send-icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-icon-send"></use>
+                        </svg>
                 </form>
             </div>
         </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop is-open">
         <div class="modal">
             <button class="modal-close-button" type="button">
                 <svg class="icon-close" width="8" height="8">
@@ -420,9 +420,16 @@
                 <div class="review-form-field-wrapper">
                     <label class="review-form-field-label" for="user-comment">Comment</label>
                     <textarea name="user-comment" id="user-comment" class="review-form-message" placeholder="Text input"></textarea>
+                </div>
                 <div class="review-form-checkbox-wrapper">
-                    <input class="review-form-checkbox" type="checkbox" name="user_privacy" id="user-privacy" value="true" required>
-                    <label for="" class="review-form-checkbox-label">I accept the terms and conditions of the 
+                    <input class="review-form-checkbox" type="checkbox" name="user-policy" id="user-policy" value="true" required>
+                    <label for="user-policy" class="review-form-checkbox-label">
+                        <span class="review-form-own-checkbox">
+                            <svg class="reviw-form-own-checkbox-icon" width="10" height="8">
+                                <use href="./images/icons.svg#icon-Vector"></use>
+                            </svg>
+                        </span>
+                        I accept the terms and conditions of the 
                         <a href="" class="privacy-policy-link">Privacy Policy</a>
                     </label>
                 </div>
